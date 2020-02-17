@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788C6B5123FB15490069A551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B5023FB15490069A551 /* AppDelegate.swift */; };
+		788C6B5323FB15490069A551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B5223FB15490069A551 /* SceneDelegate.swift */; };
+		788C6B5523FB15490069A551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B5423FB15490069A551 /* ViewController.swift */; };
+		788C6B5823FB15490069A551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C6B5623FB15490069A551 /* Main.storyboard */; };
+		788C6B5A23FB154F0069A551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C6B5923FB154F0069A551 /* Assets.xcassets */; };
+		788C6B5D23FB154F0069A551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C6B5B23FB154F0069A551 /* LaunchScreen.storyboard */; };
+		788C6B6823FB154F0069A551 /* Billeck_Homework_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6723FB154F0069A551 /* Billeck_Homework_3Tests.swift */; };
+		788C6B7323FB154F0069A551 /* Billeck_Homework_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B7223FB154F0069A551 /* Billeck_Homework_3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788C6B6423FB154F0069A551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788C6B4523FB15490069A551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788C6B4C23FB15490069A551;
+			remoteInfo = "Billeck Homework 3";
+		};
+		788C6B6F23FB154F0069A551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788C6B4523FB15490069A551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788C6B4C23FB15490069A551;
+			remoteInfo = "Billeck Homework 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		788C6B4D23FB15490069A551 /* Billeck Homework 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billeck Homework 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C6B5023FB15490069A551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		788C6B5223FB15490069A551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		788C6B5423FB15490069A551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		788C6B5723FB15490069A551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		788C6B5923FB154F0069A551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788C6B5C23FB154F0069A551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		788C6B5E23FB154F0069A551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C6B6323FB154F0069A551 /* Billeck Homework 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billeck Homework 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C6B6723FB154F0069A551 /* Billeck_Homework_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billeck_Homework_3Tests.swift; sourceTree = "<group>"; };
+		788C6B6923FB154F0069A551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C6B6E23FB154F0069A551 /* Billeck Homework 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billeck Homework 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C6B7223FB154F0069A551 /* Billeck_Homework_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billeck_Homework_3UITests.swift; sourceTree = "<group>"; };
+		788C6B7423FB154F0069A551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788C6B4A23FB15490069A551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C6B6023FB154F0069A551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C6B6B23FB154F0069A551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788C6B4423FB15490069A551 = {
+			isa = PBXGroup;
+			children = (
+				788C6B4F23FB15490069A551 /* Billeck Homework 3 */,
+				788C6B6623FB154F0069A551 /* Billeck Homework 3Tests */,
+				788C6B7123FB154F0069A551 /* Billeck Homework 3UITests */,
+				788C6B4E23FB15490069A551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788C6B4E23FB15490069A551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788C6B4D23FB15490069A551 /* Billeck Homework 3.app */,
+				788C6B6323FB154F0069A551 /* Billeck Homework 3Tests.xctest */,
+				788C6B6E23FB154F0069A551 /* Billeck Homework 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788C6B4F23FB15490069A551 /* Billeck Homework 3 */ = {
+			isa = PBXGroup;
+			children = (
+				788C6B5023FB15490069A551 /* AppDelegate.swift */,
+				788C6B5223FB15490069A551 /* SceneDelegate.swift */,
+				788C6B5423FB15490069A551 /* ViewController.swift */,
+				788C6B5623FB15490069A551 /* Main.storyboard */,
+				788C6B5923FB154F0069A551 /* Assets.xcassets */,
+				788C6B5B23FB154F0069A551 /* LaunchScreen.storyboard */,
+				788C6B5E23FB154F0069A551 /* Info.plist */,
+			);
+			path = "Billeck Homework 3";
+			sourceTree = "<group>";
+		};
+		788C6B6623FB154F0069A551 /* Billeck Homework 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				788C6B6723FB154F0069A551 /* Billeck_Homework_3Tests.swift */,
+				788C6B6923FB154F0069A551 /* Info.plist */,
+			);
+			path = "Billeck Homework 3Tests";
+			sourceTree = "<group>";
+		};
+		788C6B7123FB154F0069A551 /* Billeck Homework 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				788C6B7223FB154F0069A551 /* Billeck_Homework_3UITests.swift */,
+				788C6B7423FB154F0069A551 /* Info.plist */,
+			);
+			path = "Billeck Homework 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788C6B4C23FB15490069A551 /* Billeck Homework 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C6B7723FB154F0069A551 /* Build configuration list for PBXNativeTarget "Billeck Homework 3" */;
+			buildPhases = (
+				788C6B4923FB15490069A551 /* Sources */,
+				788C6B4A23FB15490069A551 /* Frameworks */,
+				788C6B4B23FB15490069A551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Billeck Homework 3";
+			productName = "Billeck Homework 3";
+			productReference = 788C6B4D23FB15490069A551 /* Billeck Homework 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788C6B6223FB154F0069A551 /* Billeck Homework 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C6B7A23FB154F0069A551 /* Build configuration list for PBXNativeTarget "Billeck Homework 3Tests" */;
+			buildPhases = (
+				788C6B5F23FB154F0069A551 /* Sources */,
+				788C6B6023FB154F0069A551 /* Frameworks */,
+				788C6B6123FB154F0069A551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788C6B6523FB154F0069A551 /* PBXTargetDependency */,
+			);
+			name = "Billeck Homework 3Tests";
+			productName = "Billeck Homework 3Tests";
+			productReference = 788C6B6323FB154F0069A551 /* Billeck Homework 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		788C6B6D23FB154F0069A551 /* Billeck Homework 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C6B7D23FB154F0069A551 /* Build configuration list for PBXNativeTarget "Billeck Homework 3UITests" */;
+			buildPhases = (
+				788C6B6A23FB154F0069A551 /* Sources */,
+				788C6B6B23FB154F0069A551 /* Frameworks */,
+				788C6B6C23FB154F0069A551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788C6B7023FB154F0069A551 /* PBXTargetDependency */,
+			);
+			name = "Billeck Homework 3UITests";
+			productName = "Billeck Homework 3UITests";
+			productReference = 788C6B6E23FB154F0069A551 /* Billeck Homework 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788C6B4523FB15490069A551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brendt Billeck";
+				TargetAttributes = {
+					788C6B4C23FB15490069A551 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					788C6B6223FB154F0069A551 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 788C6B4C23FB15490069A551;
+					};
+					788C6B6D23FB154F0069A551 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 788C6B4C23FB15490069A551;
+					};
+				};
+			};
+			buildConfigurationList = 788C6B4823FB15490069A551 /* Build configuration list for PBXProject "Billeck Homework 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 788C6B4423FB15490069A551;
+			productRefGroup = 788C6B4E23FB15490069A551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788C6B4C23FB15490069A551 /* Billeck Homework 3 */,
+				788C6B6223FB154F0069A551 /* Billeck Homework 3Tests */,
+				788C6B6D23FB154F0069A551 /* Billeck Homework 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788C6B4B23FB15490069A551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C6B5D23FB154F0069A551 /* LaunchScreen.storyboard in Resources */,
+				788C6B5A23FB154F0069A551 /* Assets.xcassets in Resources */,
+				788C6B5823FB15490069A551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C6B6123FB154F0069A551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C6B6C23FB154F0069A551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788C6B4923FB15490069A551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C6B5523FB15490069A551 /* ViewController.swift in Sources */,
+				788C6B5123FB15490069A551 /* AppDelegate.swift in Sources */,
+				788C6B5323FB15490069A551 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C6B5F23FB154F0069A551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C6B6823FB154F0069A551 /* Billeck_Homework_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C6B6A23FB154F0069A551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C6B7323FB154F0069A551 /* Billeck_Homework_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788C6B6523FB154F0069A551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788C6B4C23FB15490069A551 /* Billeck Homework 3 */;
+			targetProxy = 788C6B6423FB154F0069A551 /* PBXContainerItemProxy */;
+		};
+		788C6B7023FB154F0069A551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788C6B4C23FB15490069A551 /* Billeck Homework 3 */;
+			targetProxy = 788C6B6F23FB154F0069A551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788C6B5623FB15490069A551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788C6B5723FB15490069A551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		788C6B5B23FB154F0069A551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788C6B5C23FB154F0069A551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788C6B7523FB154F0069A551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		788C6B7623FB154F0069A551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788C6B7823FB154F0069A551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Homework 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Homework-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		788C6B7923FB154F0069A551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Homework 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Homework-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		788C6B7B23FB154F0069A551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Homework 3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Homework-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billeck Homework 3.app/Billeck Homework 3";
+			};
+			name = Debug;
+		};
+		788C6B7C23FB154F0069A551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Homework 3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Homework-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billeck Homework 3.app/Billeck Homework 3";
+			};
+			name = Release;
+		};
+		788C6B7E23FB154F0069A551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Homework 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Homework-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billeck Homework 3";
+			};
+			name = Debug;
+		};
+		788C6B7F23FB154F0069A551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Homework 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Homework-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billeck Homework 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788C6B4823FB15490069A551 /* Build configuration list for PBXProject "Billeck Homework 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C6B7523FB154F0069A551 /* Debug */,
+				788C6B7623FB154F0069A551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C6B7723FB154F0069A551 /* Build configuration list for PBXNativeTarget "Billeck Homework 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C6B7823FB154F0069A551 /* Debug */,
+				788C6B7923FB154F0069A551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C6B7A23FB154F0069A551 /* Build configuration list for PBXNativeTarget "Billeck Homework 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C6B7B23FB154F0069A551 /* Debug */,
+				788C6B7C23FB154F0069A551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C6B7D23FB154F0069A551 /* Build configuration list for PBXNativeTarget "Billeck Homework 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C6B7E23FB154F0069A551 /* Debug */,
+				788C6B7F23FB154F0069A551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788C6B4523FB15490069A551 /* Project object */;
+}
